@@ -1,0 +1,129 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Trebuchet MS;
+	font-size: 16px;
+}
+
+header {
+	width: 100%;
+}
+
+header > p {
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+header > p > a {
+	color: #484848;
+}
+
+nav {
+	width: 100%;
+	background: #f9f9fb;
+	padding: 10px 20px;
+	border-top: 1px solid #cdcdcd;
+	border-bottom: 1px solid #cdcdcd;
+}
+
+
+nav > a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #484848;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+.div__user-info {
+	width: 300px;
+	margin: 10px auto;
+	padding: 10px;
+	background: #f9f9fb;
+	border: 1px solid #cdcdcd
+}
+
+.div__user-info p {
+	font-size: 14px;
+	text-align: center;
+}
+
+.div__user-info form {
+	text-align: center;
+}
+
+.wrapper {
+	width: 70%;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+
+.content > h2 {
+	text-align: center;
+	line-height: 2;
+}
+
+.table__products {
+	width: 100%;
+	border: 2px solid  #cdcdcd;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+.table__products th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 2px solid #dddddd;
+	text-align: center;
+}
+.table__products td {
+	border: 1px solid #eee;
+	text-align: left;
+	padding: 5px;
+	border: 2px solid #dddddd;
+}
+
+.table__products tbody tr:nth-child(odd){
+	background: #fff;
+}
+.table__products tbody tr:nth-child(even){
+	background: #F7F7F7;
+}
+
+td.column-id {
+	text-align: center;
+}
+
+p.block-status {
+	line-height: 2;
+}
+
+.text_count_inserts {
+	color: #00b700;
+}
+
+.text_count_updated {
+	color: #FF8C00FF;
+}
+
+p.text_error {
+	color: #a60000;
+	line-height: 1.5;
+}
+
+form.form__import {
+	padding: 10px;
+	background: #f9f9fb;
+	border: 1px solid #cdcdcd
+}
+
+form.form__import input {
+	padding: 5px;
+}
